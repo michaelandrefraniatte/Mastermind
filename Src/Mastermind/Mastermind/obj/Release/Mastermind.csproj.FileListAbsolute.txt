@@ -1,0 +1,10 @@
+C:\Users\micha\Documents\github\Mastermind\Src\Mastermind\Mastermind\bin\Release\Mastermind.exe.config
+C:\Users\micha\Documents\github\Mastermind\Src\Mastermind\Mastermind\bin\Release\Mastermind.exe
+C:\Users\micha\Documents\github\Mastermind\Src\Mastermind\Mastermind\bin\Release\Mastermind.pdb
+C:\Users\micha\Documents\github\Mastermind\Src\Mastermind\Mastermind\obj\Release\Mastermind.csproj.AssemblyReference.cache
+C:\Users\micha\Documents\github\Mastermind\Src\Mastermind\Mastermind\obj\Release\Mastermind.Form1.resources
+C:\Users\micha\Documents\github\Mastermind\Src\Mastermind\Mastermind\obj\Release\Mastermind.Properties.Resources.resources
+C:\Users\micha\Documents\github\Mastermind\Src\Mastermind\Mastermind\obj\Release\Mastermind.csproj.GenerateResource.cache
+C:\Users\micha\Documents\github\Mastermind\Src\Mastermind\Mastermind\obj\Release\Mastermind.csproj.CoreCompileInputs.cache
+C:\Users\micha\Documents\github\Mastermind\Src\Mastermind\Mastermind\obj\Release\Mastermind.exe
+C:\Users\micha\Documents\github\Mastermind\Src\Mastermind\Mastermind\obj\Release\Mastermind.pdb
