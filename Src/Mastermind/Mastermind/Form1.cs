@@ -266,7 +266,7 @@ namespace Mastermind
         }
         private void pbcolor1line2_Click(object sender, EventArgs e)
         {
-            if (enablecheckline2)
+            if (enablecheckline2 & !enablecheckline1)
             {
                 if (inccolor1line2 > 6)
                     inccolor1line2 = 0;
@@ -276,7 +276,7 @@ namespace Mastermind
         }
         private void pbcolor2line2_Click(object sender, EventArgs e)
         {
-            if (enablecheckline2)
+            if (enablecheckline2 & !enablecheckline1)
             {
                 if (inccolor2line2 > 6)
                     inccolor2line2 = 0;
@@ -286,7 +286,7 @@ namespace Mastermind
         }
         private void pbcolor3line2_Click(object sender, EventArgs e)
         {
-            if (enablecheckline2)
+            if (enablecheckline2 & !enablecheckline1)
             {
                 if (inccolor3line2 > 6)
                     inccolor3line2 = 0;
@@ -296,7 +296,7 @@ namespace Mastermind
         }
         private void pbcolor4line2_Click(object sender, EventArgs e)
         {
-            if (enablecheckline2)
+            if (enablecheckline2 & !enablecheckline1)
             {
                 if (inccolor4line2 > 6)
                     inccolor4line2 = 0;
@@ -306,7 +306,7 @@ namespace Mastermind
         }
         private void pbcolor1line3_Click(object sender, EventArgs e)
         {
-            if (enablecheckline3)
+            if (enablecheckline3 & !enablecheckline2)
             {
                 if (inccolor1line3 > 6)
                     inccolor1line3 = 0;
@@ -316,7 +316,7 @@ namespace Mastermind
         }
         private void pbcolor2line3_Click(object sender, EventArgs e)
         {
-            if (enablecheckline3)
+            if (enablecheckline3 & !enablecheckline2)
             {
                 if (inccolor2line3 > 6)
                     inccolor2line3 = 0;
@@ -326,7 +326,7 @@ namespace Mastermind
         }
         private void pbcolor3line3_Click(object sender, EventArgs e)
         {
-            if (enablecheckline3)
+            if (enablecheckline3 & !enablecheckline2)
             {
                 if (inccolor3line3 > 6)
                     inccolor3line3 = 0;
@@ -336,7 +336,7 @@ namespace Mastermind
         }
         private void pbcolor4line3_Click(object sender, EventArgs e)
         {
-            if (enablecheckline3)
+            if (enablecheckline3 & !enablecheckline2)
             {
                 if (inccolor4line3 > 6)
                     inccolor4line3 = 0;
@@ -346,7 +346,7 @@ namespace Mastermind
         }
         private void pbcolor1line4_Click(object sender, EventArgs e)
         {
-            if (enablecheckline4)
+            if (enablecheckline4 & !enablecheckline3)
             {
                 if (inccolor1line4 > 6)
                     inccolor1line4 = 0;
@@ -356,7 +356,7 @@ namespace Mastermind
         }
         private void pbcolor2line4_Click(object sender, EventArgs e)
         {
-            if (enablecheckline4)
+            if (enablecheckline4 & !enablecheckline3)
             {
                 if (inccolor2line4 > 6)
                     inccolor2line4 = 0;
@@ -366,7 +366,7 @@ namespace Mastermind
         }
         private void pbcolor3line4_Click(object sender, EventArgs e)
         {
-            if (enablecheckline4)
+            if (enablecheckline4 & !enablecheckline3)
             {
                 if (inccolor3line4 > 6)
                     inccolor3line4 = 0;
@@ -376,7 +376,7 @@ namespace Mastermind
         }
         private void pbcolor4line4_Click(object sender, EventArgs e)
         {
-            if (enablecheckline4)
+            if (enablecheckline4 & !enablecheckline3)
             {
                 if (inccolor4line4 > 6)
                     inccolor4line4 = 0;
@@ -386,7 +386,7 @@ namespace Mastermind
         }
         private void pbcolor1line5_Click(object sender, EventArgs e)
         {
-            if (enablecheckline5)
+            if (enablecheckline5 & !enablecheckline4)
             {
                 if (inccolor1line5 > 6)
                     inccolor1line5 = 0;
@@ -396,7 +396,7 @@ namespace Mastermind
         }
         private void pbcolor2line5_Click(object sender, EventArgs e)
         {
-            if (enablecheckline5)
+            if (enablecheckline5 & !enablecheckline4)
             {
                 if (inccolor2line5 > 6)
                     inccolor2line5 = 0;
@@ -406,7 +406,7 @@ namespace Mastermind
         }
         private void pbcolor3line5_Click(object sender, EventArgs e)
         {
-            if (enablecheckline5)
+            if (enablecheckline5 & !enablecheckline4)
             {
                 if (inccolor3line5 > 6)
                     inccolor3line5 = 0;
@@ -416,7 +416,7 @@ namespace Mastermind
         }
         private void pbcolor4line5_Click(object sender, EventArgs e)
         {
-            if (enablecheckline5)
+            if (enablecheckline5 & !enablecheckline4)
             {
                 if (inccolor4line5 > 6)
                     inccolor4line5 = 0;
@@ -426,7 +426,7 @@ namespace Mastermind
         }
         private void pbcolor1line6_Click(object sender, EventArgs e)
         {
-            if (enablecheckline6)
+            if (enablecheckline6 & !enablecheckline5)
             {
                 if (inccolor1line6 > 6)
                     inccolor1line6 = 0;
@@ -436,7 +436,7 @@ namespace Mastermind
         }
         private void pbcolor2line6_Click(object sender, EventArgs e)
         {
-            if (enablecheckline6)
+            if (enablecheckline6 & !enablecheckline5)
             {
                 if (inccolor2line6 > 6)
                     inccolor2line6 = 0;
@@ -446,7 +446,7 @@ namespace Mastermind
         }
         private void pbcolor3line6_Click(object sender, EventArgs e)
         {
-            if (enablecheckline6)
+            if (enablecheckline6 & !enablecheckline5)
             {
                 if (inccolor3line6 > 6)
                     inccolor3line6 = 0;
@@ -456,7 +456,7 @@ namespace Mastermind
         }
         private void pbcolor4line6_Click(object sender, EventArgs e)
         {
-            if (enablecheckline6)
+            if (enablecheckline6 & !enablecheckline5)
             {
                 if (inccolor4line6 > 6)
                     inccolor4line6 = 0;
