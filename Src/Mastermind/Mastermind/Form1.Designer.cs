@@ -794,6 +794,7 @@
             this.Name = "Form1";
             this.Text = "Mastermind";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pbcolor1line1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbcolor2line1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbcolor3line1)).EndInit();
